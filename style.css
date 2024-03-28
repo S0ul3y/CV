@@ -61,7 +61,7 @@ main{
 }
 .blockDroit{
     background-color: #EFF0F2;
-    height: 170vh;
+    height: 150vh;
     /* min-height: auto;     */
     width: 30vw;
     z-index: 1;
@@ -77,7 +77,8 @@ main{
     box-shadow: 0px 1px 4px;
     display: flex;
     align-items: center;
-    font-size: 1.2vw;
+    font-size: 1.8vw;
+    font-weight: bolder;
     padding-left: 30px;
     background-color: #EFF0F2;
     border: 0px;
@@ -87,6 +88,11 @@ main{
     color: #2A354B;
     margin-right: 30px;
 }
+
+.texteZone{
+    margin-left: 45px;
+}
+
 .blockGauche p{
     width: 500px;
     margin-left: 50px;
@@ -122,23 +128,24 @@ main{
     display: flex;
 }
 
-.compet  p{
+
+.BlockTexte{
     display: flex;
     align-items: center;
-    line-height: 20px   ;
+    line-height: 40px   ;
 }
 .compet .ligne{
     position: relative;
     left: 9px;
     width: 5px;
-    height: 45vh;
+    height: 240px;
     z-index: 1px;
-    /* margin-left: 10px; */
     background-color: #2A354B;
 }
-.compet  p  span{
+
+.compet  .BlockTexte  span{
     width: 15px;
-    height: 15px;
+    height: 15px;   
     border-radius: 50%;
     background-color: #2A354B;
     margin-right: 20px;
@@ -161,6 +168,9 @@ main{
     border-radius: 50%;
     background-color: #2A354B;
     margin-right: 20px;
+}
+.Texte{
+    margin-left: 40px;
 }
 
 
