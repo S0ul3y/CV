@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
 
 body{
-    width: 100%;
+    width: 100vw;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -184,13 +184,14 @@ main{
     .blockGauche{
         /* background-color: aquamarine; */
         padding-top: 30px;
-        width: 50px;
-        width: 98vw;
+        /* width: 50px; */
+        width: 100%;
+        /* display: none; */
     }
     .blockDroit{
         background-color: #EFF0F2;
         height: auto;
-        width: 98vw;
+        width: 100%;
         z-index: 1;
         margin-top: -150px;
         border-radius: 20px 20px 0px 0px;
@@ -224,7 +225,7 @@ main{
     }
     .contenu span{
         width: 80%;
-        font-size: 3vw;
+        font-size: 4.5vw;
     }
     .contenu p{
         width: 80%;
